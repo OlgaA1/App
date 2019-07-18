@@ -6,13 +6,59 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="280dp"
+        android:layout_height="90dp"
+        android:text="Chest"
+        android:background="@color/colorAccent"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="140dp" />
+
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="280dp"
+        android:layout_height="90dp"
+        android:text="Back"
+        android:background="@color/colorAccent"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="240dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="280dp"
+        android:layout_height="90dp"
+        android:background="@color/colorAccent"
+        android:text="Abs"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="340dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="280dp"
+        android:layout_height="90dp"
+        android:background="@color/colorAccent"
+        android:text="Legs"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="440dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="280dp"
+        android:layout_height="90dp"
+        android:background="@color/colorAccent"
+        android:text="Arms"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="540dp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="280dp"
+        android:layout_height="90dp"
+        android:background="@color/colorAccent"
+        android:text="Glutes"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="640dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
