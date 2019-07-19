@@ -11,6 +11,7 @@
         android:layout_width="280dp"
         android:layout_height="90dp"
         android:text="Chest"
+        android:layout_margin="15dp"
         android:background="@color/colorAccent"
         tools:layout_editor_absoluteX="1dp"
         tools:layout_editor_absoluteY="140dp" />
