@@ -4,15 +4,33 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@color/colorAccent"
+    >
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="4.5dp"
+        android:background="@color/colorPrimary"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="135dp" />
+
+    <View
+        android:layout_width="4.5dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        tools:layout_editor_absoluteX="281dp"
+        tools:layout_editor_absoluteY="-1dp" />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="280dp"
-        android:layout_height="90dp"
-        android:text="Chest"
+        android:layout_height="100dp"
         android:layout_margin="15dp"
-        android:background="@color/colorAccent"
+        android:background="@drawable/border"
+        android:textSize="20dp"
+        android:text="Chest"
         tools:layout_editor_absoluteX="1dp"
         tools:layout_editor_absoluteY="140dp" />
 
@@ -20,46 +38,62 @@
     <Button
         android:id="@+id/button4"
         android:layout_width="280dp"
-        android:layout_height="90dp"
+        android:layout_height="100dp"
         android:text="Back"
-        android:background="@color/colorAccent"
+        android:background="@drawable/border"
+        android:textSize="20dp"
         tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="240dp" />
+        tools:layout_editor_absoluteY="240dp"
+        />
 
     <Button
         android:id="@+id/button5"
         android:layout_width="280dp"
-        android:layout_height="90dp"
-        android:background="@color/colorAccent"
+        android:layout_height="100dp"
+        android:background="@drawable/border"
         android:text="Abs"
+        android:textSize="20dp"
         tools:layout_editor_absoluteX="1dp"
         tools:layout_editor_absoluteY="340dp" />
 
     <Button
         android:id="@+id/button6"
         android:layout_width="280dp"
-        android:layout_height="90dp"
-        android:background="@color/colorAccent"
+        android:layout_height="100dp"
+        android:background="@drawable/border"
         android:text="Legs"
+        android:textSize="20dp"
         tools:layout_editor_absoluteX="1dp"
         tools:layout_editor_absoluteY="440dp" />
 
     <Button
         android:id="@+id/button7"
         android:layout_width="280dp"
-        android:layout_height="90dp"
-        android:background="@color/colorAccent"
+        android:layout_height="100dp"
+        android:background="@drawable/border"
         android:text="Arms"
+        android:textSize="20dp"
         tools:layout_editor_absoluteX="1dp"
         tools:layout_editor_absoluteY="540dp" />
 
     <Button
         android:id="@+id/button8"
         android:layout_width="280dp"
-        android:layout_height="90dp"
-        android:background="@color/colorAccent"
+        android:layout_height="100dp"
+        android:background="@drawable/border"
         android:text="Glutes"
+        android:textSize="20dp"
         tools:layout_editor_absoluteX="1dp"
         tools:layout_editor_absoluteY="640dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"
+        android:textColor="@color/colorPrimary"
+        android:text="FITBOOST"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="30dp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
