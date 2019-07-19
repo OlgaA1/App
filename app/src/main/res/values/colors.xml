@@ -3,5 +3,10 @@
     <color name="colorPrimary">#CB4335</color>
     <color name="colorPrimaryDark">#CB4335</color>
     <color name="colorAccent">#D81B60</color>
+<<<<<<< HEAD
     <color name="colorBack">#148F77</color>
+=======
+    <color name= "colorBlack">#000000</color>
+    <color name= "colorYellow">#ffff00 </color>
+>>>>>>> 023183c0a9d84b490d51084d46128869f865ebb9
 </resources>
