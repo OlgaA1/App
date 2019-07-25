@@ -4,8 +4,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-import java.util.Scanner;
-
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -14,4 +12,3 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 }
-
