@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#000000</color>
-    <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#ffff00</color>
+<<<<<<< HEAD
     <color name="colorPrimary">#CB4335</color>
     <color name="colorPrimaryDark">#CB4335</color>
     <color name="colorAccent">#D81B60</color>
@@ -11,4 +11,6 @@
     <color name= "colorYellow">#ffff00 </color>
     <color name="colorLight">#95984F</color>
     <color name="colorDarkYellow">#E1E111</color>
+=======
+>>>>>>> bace9b67b602e2bbb737cae82d3e44b590a915c0
 </resources>
