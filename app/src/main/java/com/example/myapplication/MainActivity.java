@@ -11,24 +11,22 @@ import android.widget.Button;
 import java.util.Scanner;
 
 public class MainActivity extends AppCompatActivity {
-    private Button button;
+import android.widget.Button
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        button = (Button) findViewById(R.id.button);
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                openActivity_chest();
-            }
-        });
+        Button button1 = (Button) findViewById(R.id.button);
+        Button button2 = (Button) findViewById(R.id.button2);
+        Button button3 = (Button) findViewById(R.id.button3);
+        Button button4 = (Button) findViewById(R.id.button4);
+        Button button5 = (Button) findViewById(R.id.button5);
+        Button button6 = (Button) findViewById(R.id.button6);
+        
+
     }
-    public void openActivity_chest(){
-        Intent intent = new Intent(this, chest.class);
-        startActivity(intent);
-    }
+
 }
 
