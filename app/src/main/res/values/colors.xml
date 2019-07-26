@@ -9,4 +9,6 @@
     <color name="colorBack">#148F77</color>
     <color name= "colorBlack">#000000</color>
     <color name= "colorYellow">#ffff00 </color>
+    <color name= "colorBlue">#1565c0</color>
+    <color name="colorGreen">#76ff03</color>
 </resources>
