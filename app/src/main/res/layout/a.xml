@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity"
+    tools:context=".ui.login.LoginActivity"
     android:background="@color/colorAccent"
     >
 
@@ -14,20 +14,23 @@
         android:layout_width="match_parent"
         android:layout_height="114dp"
         android:background="@color/colorDarkYellow"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:layout_width="wrap_content"
         android:layout_height="2dp"
         android:background="@color/colorLight"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="114dp" />
+        tools:layout_editor_absoluteY="114dp"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:layout_width="2dp"
         android:layout_height="wrap_content"
         android:background="@color/colorLight"
         tools:layout_editor_absoluteX="310dp"
-        tools:layout_editor_absoluteY="0dp" />
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/button3"
@@ -38,7 +41,8 @@
         android:text="Chest"
         android:textSize="20dp"
         tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="130dp" />
+        tools:layout_editor_absoluteY="130dp"
+        tools:ignore="MissingConstraints" />
 
 
     <Button
@@ -49,7 +53,8 @@
         android:text="Back"
         android:textSize="20dp"
         tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="230dp" />
+        tools:layout_editor_absoluteY="230dp"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/button5"
@@ -69,7 +74,8 @@
         android:text="Legs"
         android:textSize="20dp"
         tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="430dp" />
+        tools:layout_editor_absoluteY="430dp"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/button7"
@@ -79,7 +85,8 @@
         android:text="Arms"
         android:textSize="20dp"
         tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="530dp" />
+        tools:layout_editor_absoluteY="530dp"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/button8"
@@ -89,7 +96,8 @@
         android:text="Glutes"
         android:textSize="20dp"
         tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="630dp" />
+        tools:layout_editor_absoluteY="630dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView2"
@@ -99,21 +107,12 @@
         android:textColor="@color/colorPrimary"
         android:textSize="50dp"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="44dp" />
+        tools:layout_editor_absoluteY="44dp"
+        tools:ignore="MissingConstraints" />
 
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
+</androidx.constraintlayout.widget.ConstraintLayout>
