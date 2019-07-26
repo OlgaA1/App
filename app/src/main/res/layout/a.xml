@@ -97,7 +97,7 @@
         android:layout_height="wrap_content"
         android:text="FITBOOST"
         android:textColor="@color/colorPrimary"
-        android:textSize="45dp"
+        android:textSize="50dp"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="44dp" />
 
