@@ -24,7 +24,7 @@ import android.widget.Button
         Button button4 = (Button) findViewById(R.id.button4);
         Button button5 = (Button) findViewById(R.id.button5);
         Button button6 = (Button) findViewById(R.id.button6);
-        
+
 
     }
 
