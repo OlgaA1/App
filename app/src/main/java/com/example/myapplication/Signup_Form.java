@@ -8,7 +8,7 @@ public class Signup_Form extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.Layout.activity_Signup_Fom);
+        setContentView(R.layout.activity_Signup_Fom);
 
     }
 }
