@@ -19,41 +19,39 @@
             app:layout_constraintHorizontal_bias="0.497"
             app:layout_constraintVertical_bias="0.0"/>
 
+        <ImageView
+            android:layout_width="209dp"
+            android:layout_height="170dp"
+            app:srcCompat="@drawable/drawablelogo"
+            android:id="@+id/imageView"
+            tools:layout_editor_absoluteX="92dp"
+            tools:layout_editor_absoluteY="66dp"/>
+
 
         <EditText
+            android:id="@+id/name_text1"
             android:layout_width="213dp"
             android:layout_height="45dp"
             android:inputType="textPersonName"
             android:text="Name"
             android:ems="10"
             tools:layout_editor_absoluteX="32dp"
-            android:id="@+id/name_text"
             app:layout_constraintTop_toTopOf="parent"
             android:layout_marginTop="258dp"/>
 
-        <ImageView
-            android:layout_width="209dp"
-            android:layout_height="170dp"
-            app:srcCompat="@drawable/drawablelogo"
-            android:id="@+id/imageView5"
-            tools:layout_editor_absoluteX="92dp"
-            tools:layout_editor_absoluteY="66dp"/>
-
 
         <EditText
-            android:id="@+id/editText"
+            android:id="@+id/editText2"
             android:layout_width="213dp"
             android:layout_height="45dp"
             android:inputType="textEmailAddress"
-            android:layout_alignLeft="@id/name_text"
-            android:layout_below="@id/name_text"
             android:ems="10"
             android:text="Username"
             tools:layout_editor_absoluteY="303dp"
             tools:layout_editor_absoluteX="32dp"/>
 
         <EditText
-            android:id="@+id/editText8"
+            android:id="@+id/editText3"
             android:layout_width="213dp"
             android:layout_height="45dp"
             tools:layout_editor_absoluteX="32dp"
@@ -61,7 +59,7 @@
             tools:layout_editor_absoluteY="339dp"/>
 
         <EditText
-            android:id="@+id/editText3"
+            android:id="@+id/editText4"
             android:layout_width="213dp"
             android:layout_height="45dp"
             tools:layout_editor_absoluteY="384dp"
@@ -69,7 +67,7 @@
             android:text="Age"/>
 
         <EditText
-            android:id="@+id/editText4"
+            android:id="@+id/editText5"
             android:layout_width="213dp"
             android:layout_height="45dp"
             tools:layout_editor_absoluteY="474dp"
@@ -77,7 +75,7 @@
             android:text="Weight"/>
 
         <EditText
-            android:id="@+id/editText5"
+            android:id="@+id/editText6"
             android:layout_width="213dp"
             android:layout_height="45dp"
             tools:layout_editor_absoluteY="429dp"
@@ -85,7 +83,7 @@
             android:text="Sex"/>
 
         <EditText
-            android:id="@+id/editText8"
+            android:id="@+id/editText7"
             android:layout_width="213dp"
             android:layout_height="45dp"
             tools:layout_editor_absoluteY="519dp"
@@ -107,19 +105,17 @@
             android:layout_height="47dp"
             android:id="@+id/button"
             android:layout_below="@+id/textView"
-            android:layout_alignParentleft="true"
             android:layout_alignParentStart="true"
+            android:gravity="center"
             tools:layout_editor_absoluteY="609dp"
-            tools:layout_editor_absoluteX="56dp"/>
+            tools:layout_editor_absoluteX="56dp"
+            android:layout_alignParentLeft="true" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/FITBOOST"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scrollbarThumbHorizontal="@drawable/rounded_corners">
-
-    </androidx.constraintlayout.widget.ConstraintLayout>
-
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
