@@ -9,6 +9,6 @@ public class Main_Account extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main__account);
+        setContentView(R.layout.Create_Account);
     }
 }
