@@ -4,9 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-HEAD
     android:orientation="vertical"
-    tools:context=".ui.login.LoginActivity"
+    tools:context=".function"
     android:background="@color/colorYellow"
     >
 
@@ -27,7 +26,6 @@ HEAD
         android:layout_width="wrap_content"
         android:layout_height="2dp"
         android:background="@color/colorLight"
-HEAD
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -40,7 +38,6 @@ HEAD
         android:layout_width="2dp"
         android:layout_height="wrap_content"
         android:background="@color/colorLight"
- HEAD
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.779"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -56,7 +53,6 @@ HEAD
         android:background="@drawable/rounded"
         android:text="Chest"
         android:textSize="20dp"
- HEAD
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -72,7 +68,6 @@ HEAD
         android:background="@drawable/rounded"
         android:text="Back"
         android:textSize="20dp"
- HEAD
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.137"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -91,7 +86,6 @@ HEAD
         android:background="@drawable/rounded"
         android:text="Abs"
         android:textSize="20dp"
- HEAD
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.137"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -106,7 +100,6 @@ HEAD
         android:background="@drawable/rounded"
         android:text="Legs"
         android:textSize="20dp"
- HEAD
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.137"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -121,7 +114,6 @@ HEAD
         android:background="@drawable/rounded"
         android:text="Arms"
         android:textSize="20dp"
- HEAD
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.137"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -136,7 +128,6 @@ HEAD
         android:background="@drawable/rounded"
         android:text="Glutes"
         android:textSize="20dp"
- HEAD
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.137"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -151,7 +142,6 @@ HEAD
         android:text="FITBOOST"
         android:textColor="@color/colorPrimary"
         android:textSize="50dp"
- HEAD
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.082"
         app:layout_constraintLeft_toLeftOf="parent"
