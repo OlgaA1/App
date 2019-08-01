@@ -4,10 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".function"
     android:background="@color/colorYellow"
-    >
+    android:orientation="vertical"
+    tools:context=".function">
 
 
     <View
@@ -148,9 +147,6 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.07" />
-
-
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
