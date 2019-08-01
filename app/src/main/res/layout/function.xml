@@ -46,8 +46,8 @@
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="285dp"
-        android:layout_height="85dp"
+        android:layout_width="275dp"
+        android:layout_height="80dp"
         android:layout_margin="15dp"
         android:background="@drawable/rounded"
         android:text="Chest"
@@ -62,59 +62,58 @@
 
     <Button
         android:id="@+id/button4"
-
-        android:layout_width="295dp"
-        android:layout_height="90dp"
+        android:layout_width="275dp"
+        android:layout_height="80dp"
         android:background="@drawable/rounded"
         android:text="Back"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.129"
+        app:layout_constraintHorizontal_bias="0.1"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.355" />
+        app:layout_constraintVertical_bias="0.35" />
 
 
     <Button
         android:id="@+id/button5"
-        android:layout_width="295dp"
-        android:layout_height="90dp"
+        android:layout_width="275dp"
+        android:layout_height="80dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="330dp"
         android:background="@drawable/rounded"
         android:text="Abs"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.064"
+        app:layout_constraintHorizontal_bias="0.04"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.304" />
+        app:layout_constraintVertical_bias="0.21" />
 
     <Button
         android:id="@+id/button6"
-        android:layout_width="295dp"
-        android:layout_height="90dp"
+        android:layout_width="275dp"
+        android:layout_height="80dp"
         android:background="@drawable/rounded"
         android:text="Legs"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.137"
+        app:layout_constraintHorizontal_bias="0.1"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.509" />
+        app:layout_constraintVertical_bias="0.505" />
 
     <Button
         android:id="@+id/button7"
-        android:layout_width="295dp"
-        android:layout_height="90dp"
+        android:layout_width="275dp"
+        android:layout_height="80dp"
         android:background="@drawable/rounded"
         android:text="Arms"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.137"
+        app:layout_constraintHorizontal_bias="0.1"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -122,13 +121,13 @@
 
     <Button
         android:id="@+id/button8"
-        android:layout_width="295dp"
-        android:layout_height="90dp"
+        android:layout_width="275dp"
+        android:layout_height="80dp"
         android:background="@drawable/rounded"
         android:text="Glutes"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.137"
+        app:layout_constraintHorizontal_bias="0.1"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
