@@ -1,14 +1,14 @@
 package com.example.myapplication;
 
-import android.app.Activity;
+import androidx.appcompat.app.AppCompatActivity;
+
 import android.os.Bundle;
 
-public class Signup_Form extends Activity {
+public class Main_Account extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_Signup_Fom);
-
+        setContentView(R.layout.create_account);
     }
 }
