@@ -18,6 +18,22 @@ public class function extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.function);
 
+        button = (Button) findViewById(R.id.button7);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openActivityarms();
+            }
+        });
+
+        button = findViewById(R.id.button6);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openActivitylegs();
+            }
+        });
+
         button= (Button) findViewById(R.id.button5);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -41,6 +57,16 @@ public class function extends AppCompatActivity{
                 openActivitychest();
             }
         });
+    }
+
+    public void openActivityarms(){
+        Intent intent = new Intent(this, arms.class);
+        startActivity(intent);
+    }
+
+    public void openActivitylegs(){
+        Intent intent = new Intent(this, legs.class);
+        startActivity(intent);
     }
 
     public void openActivityabs(){
