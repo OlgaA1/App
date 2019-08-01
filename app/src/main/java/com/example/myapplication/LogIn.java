@@ -49,7 +49,7 @@ public class LogIn extends AppCompatActivity {
         }else{
             counter--;
 
-            Info.setText("No of attempts remaining:"+ String.valueOf(counter));
+            Info.setText("Number of attempts remaining:"+ String.valueOf(counter));
 
 
             if (counter == 0){
