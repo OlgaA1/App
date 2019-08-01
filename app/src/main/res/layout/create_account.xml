@@ -99,25 +99,24 @@
             tools:layout_editor_absoluteX="32dp"
             android:text="BMI:"/>
 
-        <Button
-            android:text="Create Account"
-            android:layout_width="147dp"
-            android:layout_height="47dp"
-            android:id="@+id/button"
-            android:layout_below="@+id/textView"
-            android:layout_alignParentStart="true"
-            android:gravity="center"
-            tools:layout_editor_absoluteY="609dp"
-            tools:layout_editor_absoluteX="56dp"
-            android:layout_alignParentLeft="true" />
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/FITBOOST"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbarThumbHorizontal="@drawable/rounded_corners"
+            app:layout_constraintBottom_toBottomOf="parent">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/FITBOOST"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:scrollbarThumbHorizontal="@drawable/rounded_corners">
-
-    </androidx.constraintlayout.widget.ConstraintLayout>
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="102dp"
+                    android:layout_marginLeft="102dp"
+                    android:layout_marginBottom="51dp"
+                    android:text="Create Account"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
