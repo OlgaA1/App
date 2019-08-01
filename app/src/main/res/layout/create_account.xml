@@ -8,115 +8,141 @@
 
         <TextView
             android:id="@+id/title"
-            android:text="FITBOOST"
             android:layout_width="wrap_content"
             android:layout_height="56sp"
-            android:textSize="45sp"
+            android:text="FITBOOST"
             android:textColor="@color/colorBlack"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent"
+            android:textSize="45sp"
             app:layout_constraintHorizontal_bias="0.497"
-            app:layout_constraintVertical_bias="0.0"/>
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
 
         <ImageView
+            android:id="@+id/imageView"
             android:layout_width="209dp"
             android:layout_height="170dp"
             app:srcCompat="@drawable/drawablelogo"
-            android:id="@+id/imageView"
             tools:layout_editor_absoluteX="92dp"
-            tools:layout_editor_absoluteY="66dp"/>
+            tools:layout_editor_absoluteY="66dp" />
 
 
         <EditText
             android:id="@+id/name_text1"
             android:layout_width="213dp"
             android:layout_height="45dp"
+            android:layout_marginTop="256dp"
+            android:ems="10"
             android:inputType="textPersonName"
             android:text="Name"
-            android:ems="10"
-            tools:layout_editor_absoluteX="32dp"
             app:layout_constraintTop_toTopOf="parent"
-            android:layout_marginTop="258dp"/>
+            tools:layout_editor_absoluteX="32dp" />
 
 
         <EditText
             android:id="@+id/editText2"
             android:layout_width="213dp"
             android:layout_height="45dp"
-            android:inputType="textEmailAddress"
+            android:layout_marginTop="292dp"
             android:ems="10"
+            android:inputType="textEmailAddress"
             android:text="Username"
-            tools:layout_editor_absoluteY="303dp"
-            tools:layout_editor_absoluteX="32dp"/>
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="32dp" />
+
 
         <EditText
             android:id="@+id/editText3"
             android:layout_width="213dp"
             android:layout_height="45dp"
-            tools:layout_editor_absoluteX="32dp"
+            android:layout_marginTop="336dp"
+            android:ems="10"
             android:text="Password"
-            tools:layout_editor_absoluteY="339dp"/>
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="32dp" />
+
 
         <EditText
             android:id="@+id/editText4"
             android:layout_width="213dp"
             android:layout_height="45dp"
-            tools:layout_editor_absoluteY="384dp"
-            tools:layout_editor_absoluteX="32dp"
-            android:text="Age"/>
+            android:layout_marginTop="380dp"
+            android:ems="10"
+            android:text="Age"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="32dp" />
+
 
         <EditText
             android:id="@+id/editText5"
             android:layout_width="213dp"
             android:layout_height="45dp"
-            tools:layout_editor_absoluteY="474dp"
-            tools:layout_editor_absoluteX="32dp"
-            android:text="Weight"/>
+            android:layout_marginTop="424dp"
+            android:ems="10"
+            android:text="Weight"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="32dp" />
 
         <EditText
             android:id="@+id/editText6"
             android:layout_width="213dp"
             android:layout_height="45dp"
-            tools:layout_editor_absoluteY="429dp"
-            tools:layout_editor_absoluteX="32dp"
-            android:text="Sex"/>
+            android:layout_marginTop="468dp"
+            android:ems="10"
+            android:text="Sex"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="32dp" />
 
         <EditText
             android:id="@+id/editText7"
             android:layout_width="213dp"
             android:layout_height="45dp"
-            tools:layout_editor_absoluteY="519dp"
-            tools:layout_editor_absoluteX="32dp"
-            android:text="Zipcode:"/>
+            android:layout_marginTop="512dp"
+            android:layout_marginBottom="174dp"
+            android:ems="10"
+            android:text="Zipcode:"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="32dp" />
 
 
         <EditText
             android:id="@+id/editText8"
             android:layout_width="213dp"
             android:layout_height="45dp"
-            tools:layout_editor_absoluteY="564dp"
+            android:ems="10"
+            android:text="BMI"
             tools:layout_editor_absoluteX="32dp"
-            android:text="BMI:"/>
+            tools:layout_editor_absoluteY="557dp" />
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/FITBOOST"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_width="33dp"
+            android:layout_height="51dp"
+            android:layout_marginBottom="844dp"
             android:scrollbarThumbHorizontal="@drawable/rounded_corners"
-            app:layout_constraintBottom_toBottomOf="parent">
+            app:layout_constraintBottom_toBottomOf="parent"
+            tools:layout_editor_absoluteX="-16dp">
 
-                <Button
-                    android:id="@+id/button1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="102dp"
-                    android:layout_marginLeft="102dp"
-                    android:layout_marginBottom="51dp"
-                    android:text="Create Account"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintStart_toStartOf="parent" />
+
         </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="148dp"
+            android:layout_marginLeft="148dp"
+            android:layout_marginTop="634dp"
+            android:layout_marginEnd="118dp"
+            android:layout_marginRight="118dp"
+            android:layout_marginBottom="49dp"
+            android:text="Create Account"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
