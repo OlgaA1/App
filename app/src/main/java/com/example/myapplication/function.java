@@ -16,7 +16,7 @@ public class function extends AppCompatActivity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.a);
+        setContentView(R.layout.function);
 
         button= (Button) findViewById(R.id.button5);
         button.setOnClickListener(new View.OnClickListener() {
