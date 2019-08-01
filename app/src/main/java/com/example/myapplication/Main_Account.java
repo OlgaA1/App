@@ -2,10 +2,15 @@ package com.example.myapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 
 public class Main_Account extends AppCompatActivity {
+
+    private View button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,5 +25,19 @@ public class Main_Account extends AppCompatActivity {
         EditText textInputSex = findViewById(R.id.editText6);
         EditText textInputZipcode = findViewById(R.id.editText7);
         EditText textInputBMI = findViewById(R.id.editText8);
+
+
+        button = (Button) findViewById(R.id.button1);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openActivityfunction();
+            }
+        });
+    }
+    public void openActivityfunction(){
+        Intent intent = new Intent(this, function.class);
+        startActivity(intent);
     }
 }
+
