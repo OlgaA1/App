@@ -46,18 +46,18 @@
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="290dp"
+        android:layout_width="285dp"
         android:layout_height="85dp"
         android:layout_margin="15dp"
         android:background="@drawable/rounded"
         android:text="Chest"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.119"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.185" />
+        app:layout_constraintVertical_bias="0.179" />
 
 
     <Button
