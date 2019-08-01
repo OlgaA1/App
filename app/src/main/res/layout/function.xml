@@ -12,7 +12,7 @@
     <View
         android:id="@+id/divider"
         android:layout_width="match_parent"
-        android:layout_height="114dp"
+        android:layout_height="110dp"
         android:background="@color/colorDarkYellow"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
