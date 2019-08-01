@@ -36,7 +36,7 @@ public class Main_Account extends AppCompatActivity {
         });
     }
     public void openActivityfunction(){
-        Intent intent = new Intent(this, function.class)
+        Intent intent = new Intent(this, function.class);
         startActivity(intent);
     }
 }
