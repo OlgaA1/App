@@ -10,14 +10,18 @@
             android:id="@+id/title"
             android:layout_width="wrap_content"
             android:layout_height="56sp"
+            android:layout_marginStart="101dp"
+            android:layout_marginLeft="101dp"
+            android:layout_marginEnd="102dp"
+            android:layout_marginRight="102dp"
+            android:layout_marginBottom="675dp"
             android:text="FITBOOST"
             android:textColor="@color/colorBlack"
             android:textSize="45sp"
-            app:layout_constraintHorizontal_bias="0.497"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.0" />
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <ImageView
             android:id="@+id/imageView"
@@ -78,65 +82,106 @@
             android:id="@+id/editText3"
             android:layout_width="213dp"
             android:layout_height="45dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginLeft="32dp"
             android:layout_marginTop="336dp"
+            android:layout_marginEnd="166dp"
+            android:layout_marginRight="166dp"
+            android:layout_marginBottom="350dp"
             android:ems="10"
             android:text="Password"
-            app:layout_constraintTop_toTopOf="parent"
-            tools:layout_editor_absoluteX="32dp" />
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
 
         <EditText
             android:id="@+id/editText4"
             android:layout_width="213dp"
             android:layout_height="45dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginLeft="32dp"
             android:layout_marginTop="380dp"
+            android:layout_marginEnd="166dp"
+            android:layout_marginRight="166dp"
+            android:layout_marginBottom="306dp"
             android:ems="10"
             android:text="Age"
-            app:layout_constraintTop_toTopOf="parent"
-            tools:layout_editor_absoluteX="32dp" />
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
 
         <EditText
             android:id="@+id/editText5"
             android:layout_width="213dp"
             android:layout_height="45dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginLeft="32dp"
             android:layout_marginTop="424dp"
+            android:layout_marginEnd="166dp"
+            android:layout_marginRight="166dp"
+            android:layout_marginBottom="262dp"
             android:ems="10"
             android:text="Weight"
-            app:layout_constraintTop_toTopOf="parent"
-            tools:layout_editor_absoluteX="32dp" />
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <EditText
             android:id="@+id/editText6"
             android:layout_width="213dp"
             android:layout_height="45dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginLeft="32dp"
             android:layout_marginTop="468dp"
+            android:layout_marginEnd="166dp"
+            android:layout_marginRight="166dp"
+            android:layout_marginBottom="218dp"
             android:ems="10"
             android:text="Sex"
-            app:layout_constraintTop_toTopOf="parent"
-            tools:layout_editor_absoluteX="32dp" />
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <EditText
             android:id="@+id/editText7"
             android:layout_width="213dp"
             android:layout_height="45dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginLeft="32dp"
             android:layout_marginTop="512dp"
+            android:layout_marginEnd="166dp"
+            android:layout_marginRight="166dp"
             android:layout_marginBottom="174dp"
             android:ems="10"
             android:text="Zipcode:"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            tools:layout_editor_absoluteX="32dp" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
 
         <EditText
             android:id="@+id/editText8"
             android:layout_width="213dp"
             android:layout_height="45dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="557dp"
+            android:layout_marginEnd="166dp"
+            android:layout_marginRight="166dp"
+            android:layout_marginBottom="129dp"
             android:ems="10"
             android:text="BMI"
-            tools:layout_editor_absoluteX="32dp"
-            tools:layout_editor_absoluteY="557dp" />
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/FITBOOST"
