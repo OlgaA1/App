@@ -18,6 +18,14 @@ public class function extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.function);
 
+        button = findViewById(R.id.button8);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openActivityglutes();
+            }
+        });
+
         button = (Button) findViewById(R.id.button7);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -57,6 +65,11 @@ public class function extends AppCompatActivity{
                 openActivitychest();
             }
         });
+    }
+
+    public void openActivityglutes() {
+        Intent intent = new Intent(this, glutes.class);
+        startActivity(intent);
     }
 
     public void openActivityarms(){
