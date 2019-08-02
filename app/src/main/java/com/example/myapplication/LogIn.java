@@ -53,7 +53,7 @@ public class LogIn extends AppCompatActivity {
         Intent intent = new Intent(this, Main_Account.class);
         startActivity(intent);
     }
-    
+
     public void validate (String usernameText, String passwordText){
         if( (usernameText.equals("Bob_cooper")) && (passwordText.equals("computer123")) ) {
             Intent intent = new Intent(LogIn.this, function.class);
