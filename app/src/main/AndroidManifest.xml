@@ -12,7 +12,6 @@
 
         <activity android:name=".legs"></activity>
         <activity android:name=".Main_Account"></activity>
-        <activity android:name=".SecondActivity" />
         <activity android:name=".glutes" />
         <activity android:name=".arms" />
         <activity android:name=".abs" />
