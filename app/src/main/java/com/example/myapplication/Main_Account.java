@@ -60,7 +60,7 @@ public class Main_Account extends AppCompatActivity {
     }
 
     public void validate(String NameText, String UsernameText, String PasswordText, String AgeText, String WeightText, String SexText, String ZipcodeText, String BMIText) {
-        if ((NameText.equals("Bob Cooper")) && (UsernameText.equals("Bob_cooper")) && (PasswordText.equals("computer123")) && (AgeText.equals("22")) && (WeightText.equals("180")) && (SexText.equals("Male")) && (ZipcodeText.equals("78520")) && (BMIText.equals("29.1"))) {
+        ((NameText.equals("Bob Cooper")) && (UsernameText.equals("Bob_cooper")) && (PasswordText.equals("computer123")) && (AgeText.equals("22")) && (WeightText.equals("180")) && (SexText.equals("Male")) && (ZipcodeText.equals("78520")) && (BMIText.equals("29.1"))) {
         }
 
      }
