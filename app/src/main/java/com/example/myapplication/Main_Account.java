@@ -20,6 +20,7 @@ public class Main_Account extends AppCompatActivity {
     private View Sex;
     private View Zipcode;
     private View BMI;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -44,7 +45,6 @@ public class Main_Account extends AppCompatActivity {
         BMI = findViewById(R.id.editText8);
 
 
-
         button = (Button) findViewById(R.id.button1);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -53,13 +53,17 @@ public class Main_Account extends AppCompatActivity {
             }
         });
     }
-    public void openActivityfunction(){
+
+    public void openActivityfunction() {
         Intent intent = new Intent(this, function.class);
         startActivity(intent);
     }
 
-    public void validate (String NameText, String UsernameText, String PasswordText, String AgeText, String WeightText, String SexText, String ZipcodeText, String BMIText) {
-        if ( (NameText.equals( "Bob Cooper")) && (UsernameText.equals("Bob_cooper")) && (PasswordText.equals("computer123")) && (AgeText.equals("22")) && (WeightText.equals("180")) && (SexText.equals("Male")) && (ZipcodeText.equals("78520")) && (BMIText.equals("29.1"))) {
-    }
-}
+    public void validate(String NameText, String UsernameText, String PasswordText, String AgeText, String WeightText, String SexText, String ZipcodeText, String BMIText) {
+        if ((NameText.equals("Bob Cooper")) && (UsernameText.equals("Bob_cooper")) && (PasswordText.equals("computer123")) && (AgeText.equals("22")) && (WeightText.equals("180")) && (SexText.equals("Male")) && (ZipcodeText.equals("78520")) && (BMIText.equals("29.1"))) {
+        }
 
+     }
+
+  }
+  
