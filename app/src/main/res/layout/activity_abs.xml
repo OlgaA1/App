@@ -16,7 +16,7 @@
         android:layout_marginLeft="16dp"
         android:layout_marginTop="37dp"
         android:text="ABS"
-        android:textSize="56dp"
+        android:textSize="50dp"
         android:textColor="#000000"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -29,8 +29,33 @@
         android:layout_marginLeft="16dp"
         android:layout_marginTop="112dp"
         android:text="WORKOUTS"
-        android:textSize="56dp"
+        android:textSize="50dp"
         android:textColor="#000000"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+   <TextView
+       android:id="@+id/info"
+       android:layout_width= "190dp"
+       android:layout_height= "50dp"
+       android:hint="3 sets 15 second rest in between exercises"
+       android:textColorHint="@color/colorBlack"
+       android:textSize="15dp"
+       app:layout_constraintLeft_toLeftOf="@id/textView8"
+       app:layout_constraintTop_toBottomOf="@id/textView8"
+       />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/situps"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/info" />
+
+
+
+
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
