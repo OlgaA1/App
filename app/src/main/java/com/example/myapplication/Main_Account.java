@@ -11,15 +11,15 @@ import android.widget.TextView;
 
 public class Main_Account extends AppCompatActivity {
 
-    private View button;
-    private View EditText1;
-    private View Username;
-    private View Password;
-    private View Age;
-    private View Weight;
-    private View Sex;
-    private View Zipcode;
-    private View BMI;
+    public View button;
+    public View EditText1;
+    public View Username;
+    public View Password;
+    public View Age;
+    public View Weight;
+    public View Sex;
+    public  View Zipcode;
+    public View BMI;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -66,4 +66,4 @@ public class Main_Account extends AppCompatActivity {
      }
 
   }
-  
+
