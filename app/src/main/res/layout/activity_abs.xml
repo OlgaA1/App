@@ -68,7 +68,7 @@
         android:id="@+id/image2"
         android:layout_width="125dp"
         android:layout_height="150dp"
-        android:src="@drawable/Toetouches"
+        android:src="@drawable/toetouches"
         app:layout_constraintTop_toBottomOf="@id/situps"
         app:layout_constraintLeft_toLeftOf="@id/image1"/>
 
@@ -101,10 +101,10 @@
         app:layout_constraintLeft_toLeftOf="@id/image3"
         app:layout_constraintBottom_toBottomOf="@id/image3"
         app:layout_constraintRight_toRightOf="@id/image3"/>
-    
 
 
 
+ 
 
 
 
