@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".legs"
-    android:background="#00FFE8">
+    android:background="#00FFE8"
+    tools:context=".legs">
 
     <TextView
         android:id="@+id/textView11"
@@ -32,4 +32,6 @@
         android:textSize="56dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
