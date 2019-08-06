@@ -24,8 +24,8 @@
         android:id="@+id/textView12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
         android:layout_marginTop="72dp"
         android:text="WORKOUTS"
         android:textColor="#000000"
@@ -52,9 +52,10 @@
         android:layout_width="123dp"
         android:layout_height="85dp"
         app:srcCompat="@drawable/Leg_SingleLegTricepDips"
-        tools:layout_editor_absoluteX="16dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="19dp"
         tools:layout_editor_absoluteY="148dp"
-        tools:ignore="MissingConstraints" />
+        />
 
     <TextView
         android:id="@+id/textView14"
@@ -75,9 +76,9 @@
         android:layout_width="123dp"
         android:layout_height="85dp"
         app:srcCompat="@drawable/Legs_FowardJumpShuffle"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="233dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="233dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -118,9 +119,48 @@
         android:layout_width="123dp"
         android:layout_height="85dp"
         app:srcCompat="@drawable/Legs_InnerThighLIfts"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="318dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="318dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="172dp"
+        android:layout_marginLeft="172dp"
+        android:layout_marginTop="304dp"
+        android:text=" Inner Thigh Lifts "
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="172dp"
+        android:layout_marginLeft="172dp"
+        android:layout_marginTop="328dp"
+        android:text=" 3 Sets x 10 Reps "
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="212dp"
+        android:layout_marginLeft="212dp"
+        android:layout_marginTop="372dp"
+        android:text=" REST "
+        android:textColor="#FF3333"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 
     <ImageView
@@ -128,26 +168,120 @@
         android:layout_width="123dp"
         android:layout_height="85dp"
         app:srcCompat="@drawable/Legs_Forwardlegswings"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="448dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="448dp" />
 
     <ImageView
         android:id="@+id/imageView18"
         android:layout_width="123dp"
         android:layout_height="85dp"
         app:srcCompat="@drawable/Legs_ButtKicks"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="533dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="533dp" />
 
     <ImageView
         android:id="@+id/imageView20"
         android:layout_width="123dp"
         android:layout_height="85dp"
         app:srcCompat="@drawable/Legs_sumosquat"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="618dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="618dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="172dp"
+        android:layout_marginLeft="172dp"
+        android:layout_marginTop="456dp"
+        android:text="Foward Leg Swings "
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="188dp"
+        android:layout_marginLeft="188dp"
+        android:layout_marginTop="480dp"
+        android:text="3 Sets x 12 Reps"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="108dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="212dp"
+        android:layout_marginLeft="212dp"
+        android:layout_marginTop="540dp"
+        android:text=" Butt Kicks "
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="188dp"
+        android:layout_marginLeft="188dp"
+        android:text="3 Sets x 8 Reps "
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="232dp"
+        android:layout_marginLeft="232dp"
+        android:layout_marginTop="624dp"
+        android:text="Squats"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="188dp"
+        android:layout_marginLeft="188dp"
+        android:layout_marginTop="652dp"
+        android:text="3 Sets x 12 Reps "
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="54dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="232dp"
+        android:layout_marginLeft="232dp"
+        android:layout_marginTop="400dp"
+        android:text="3min "
+        android:textColor="#FF3333"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
