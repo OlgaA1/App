@@ -16,7 +16,7 @@
         android:layout_marginLeft="16dp"
         android:layout_marginTop="37dp"
         android:text="ABS"
-        android:textSize="56dp"
+        android:textSize="50dp"
         android:textColor="#000000"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -29,8 +29,85 @@
         android:layout_marginLeft="16dp"
         android:layout_marginTop="112dp"
         android:text="WORKOUTS"
-        android:textSize="56dp"
+        android:textSize="50dp"
         android:textColor="#000000"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+   <TextView
+       android:id="@+id/info"
+       android:layout_width= "190dp"
+       android:layout_height= "50dp"
+       android:hint="3 sets 15 second rest in between exercises"
+       android:textColorHint="@color/colorBlack"
+       android:textSize="15dp"
+       app:layout_constraintLeft_toLeftOf="@id/textView8"
+       app:layout_constraintTop_toBottomOf="@id/textView8"
+       />
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="125dp"
+        android:layout_height="150dp"
+        android:src="@drawable/situps"
+        app:layout_constraintLeft_toLeftOf="@id/info"
+        app:layout_constraintTop_toBottomOf="@id/info" />
+
+    <TextView
+        android:id="@+id/situps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="20 Sit-ups"
+        android:textColorHint="@color/colorBlack"
+        android:textSize="14dp"
+        app:layout_constraintLeft_toLeftOf="@id/image1"
+        app:layout_constraintBottom_toBottomOf="@id/image1"
+        app:layout_constraintRight_toRightOf="@id/image1" />
+
+    <ImageView
+        android:id="@+id/image2"
+        android:layout_width="125dp"
+        android:layout_height="150dp"
+        android:src="@drawable/toetouches"
+        app:layout_constraintTop_toBottomOf="@id/situps"
+        app:layout_constraintLeft_toLeftOf="@id/image1"/>
+
+    <TextView
+        android:id="@+id/toetouches"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="20 Toe Touches"
+        android:textColorHint="@color/colorBlack"
+        android:textSize="14dp"
+        app:layout_constraintLeft_toLeftOf="@id/image2"
+        app:layout_constraintBottom_toBottomOf="@id/image2"
+        app:layout_constraintRight_toRightOf="@id/image2" />
+
+    <ImageView
+        android:id="@+id/image3"
+        android:layout_width="125dp"
+        android:layout_height="140dp"
+        android:src="@drawable/flutterkicks"
+        app:layout_constraintTop_toBottomOf="@id/toetouches"
+        app:layout_constraintLeft_toLeftOf="@id/image2" />
+
+    <TextView
+        android:id="@+id/flutterkicks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="20 Flutter Kicks"
+        android:textColorHint="@color/colorBlack"
+        android:textSize="14dp"
+        app:layout_constraintLeft_toLeftOf="@id/image3"
+        app:layout_constraintBottom_toBottomOf="@id/image3"
+        app:layout_constraintRight_toRightOf="@id/image3"/>
+
+
+
+ 
+
+
+
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

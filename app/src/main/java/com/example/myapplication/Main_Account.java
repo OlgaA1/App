@@ -7,10 +7,19 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 
 public class Main_Account extends AppCompatActivity {
 
-    private View button;
+    public View button;
+    public View EditText1;
+    public View Username;
+    public View Password;
+    public View Age;
+    public View Weight;
+    public View Sex;
+    public  View Zipcode;
+    public View BMI;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,7 +35,6 @@ public class Main_Account extends AppCompatActivity {
         EditText textInputZipcode = findViewById(R.id.editText7);
         EditText textInputBMI = findViewById(R.id.editText8);
 
-
         button = (Button) findViewById(R.id.button1);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -35,9 +43,16 @@ public class Main_Account extends AppCompatActivity {
             }
         });
     }
-    public void openActivityfunction(){
+
+    public void openActivityfunction() {
         Intent intent = new Intent(this, function.class);
         startActivity(intent);
     }
-}
+
+    public void validate(String NameText, String UsernameText, String PasswordText, String AgeText, String WeightText, String SexText, String ZipcodeText, String BMIText) {
+		
+        }
+    }
+
+
 

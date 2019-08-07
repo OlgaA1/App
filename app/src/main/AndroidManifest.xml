@@ -12,6 +12,9 @@
         <activity android:name=".after_workout"></activity>
         <activity android:name=".legs" />
         <activity android:name=".Main_Account" />
+
+        <activity android:name=".legs"></activity>
+        <activity android:name=".Main_Account"></activity>
         <activity android:name=".glutes" />
         <activity android:name=".arms" />
         <activity android:name=".abs" />
