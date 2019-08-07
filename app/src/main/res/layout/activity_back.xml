@@ -37,7 +37,7 @@
         android:id="@+id/imageView8"
         android:layout_width="123dp"
         android:layout_height="85dp"
-        app:srcCompat="@drawable/Back_Standingcablecrossover"
+        app:srcCompat="@drawable/back_standingcablecrossover"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="175dp" />
 
@@ -45,7 +45,7 @@
         android:id="@+id/imageView9"
         android:layout_width="123dp"
         android:layout_height="85dp"
-        app:srcCompat="@drawable/Back_butterfly"
+        app:srcCompat="@drawable/back_butterfly"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="260dp" />
 
@@ -53,7 +53,7 @@
         android:id="@+id/imageView10"
         android:layout_width="123dp"
         android:layout_height="85dp"
-        app:srcCompat="@drawable/Back_widegriplatpulldown"
+        app:srcCompat="@drawable/back_widegriplatpulldown"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="345dp" />
 
@@ -61,7 +61,7 @@
         android:id="@+id/imageView11"
         android:layout_width="141dp"
         android:layout_height="108dp"
-        app:srcCompat="@drawable/Backworkout"
+        app:srcCompat="@drawable/backworkout"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="450dp" />
 
