@@ -110,10 +110,10 @@
         android:layout_marginRight="20dp"
         android:layout_marginBottom="479dp"
         android:text="Decline dumbbell press 3 sets of 10-12"
+        android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:textColor="#000000"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
@@ -127,10 +127,10 @@
         android:layout_marginRight="69dp"
         android:layout_marginBottom="352dp"
         android:text="50-100 pushups"
+        android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:textColor="#000000"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
@@ -144,10 +144,10 @@
         android:layout_marginRight="28dp"
         android:layout_marginBottom="209dp"
         android:text="Decline barbell bench press 3 sets of 10-12"
+        android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:textColor="#000000"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
@@ -161,24 +161,29 @@
         android:layout_marginRight="31dp"
         android:layout_marginBottom="73dp"
         android:text="Decline Dumbbell Flyes 3 sets of 10-12"
+        android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:textColor="#000000"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/done"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="307dp"
+        android:layout_marginLeft="307dp"
+        android:layout_marginTop="659dp"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
-        android:layout_marginBottom="6dp"
+        android:layout_marginBottom="24dp"
         android:background="#fff000"
         android:text="done"
         android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
