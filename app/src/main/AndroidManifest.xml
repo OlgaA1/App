@@ -9,16 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
-        <activity android:name=".legs"></activity>
-        <activity android:name=".Main_Account"></activity>
-        <activity android:name=".SecondActivity" />
+        <activity android:name=".after_workout"></activity>
+        <activity android:name=".legs" />
+        <activity android:name=".Main_Account" />
         <activity android:name=".glutes" />
         <activity android:name=".arms" />
         <activity android:name=".abs" />
         <activity android:name=".back" />
         <activity android:name=".chest" />
-        <activity android:name=".function"/>
+        <activity android:name=".function" />
         <activity android:name=".LogIn">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
