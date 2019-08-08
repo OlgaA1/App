@@ -167,7 +167,6 @@
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         android:layout_marginBottom="6dp"
-        android:background="translucent"
         android:text="DONE"
         android:textColorHint="@color/colorBlack"
         app:layout_constraintRight_toRightOf="@id/image4"
