@@ -80,7 +80,7 @@
     <ImageView
         android:layout_width="340dp"
         android:layout_height="95dp"
-        android:layout_marginRight="144dp"
+        android:layout_marginRight="130dp"
         android:src="@drawable/squat"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintRight_toRightOf="parent"
