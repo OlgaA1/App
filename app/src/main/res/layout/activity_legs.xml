@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
-        android:text="LEGS"
+        android:text="LEG"
         android:textColor="#000000"
         android:textSize="56dp"
         app:layout_constraintStart_toStartOf="parent"
@@ -51,14 +51,14 @@
 
     <ImageView
         android:id="@+id/imageView13"
-        android:layout_width="123dp"
-        android:layout_height="85dp"
+        android:layout_width="94dp"
+        android:layout_height="69dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.065"
+        app:layout_constraintHorizontal_bias="0.088"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.229"
+        app:layout_constraintVertical_bias="0.238"
         app:srcCompat="@drawable/leg_singllegtricepdips"
         tools:ignore="MissingConstraints" />
 
@@ -81,8 +81,8 @@
 
     <ImageView
         android:id="@+id/imageView14"
-        android:layout_width="123dp"
-        android:layout_height="85dp"
+        android:layout_width="109dp"
+        android:layout_height="69dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.065"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -122,14 +122,14 @@
 
     <ImageView
         android:id="@+id/imageView15"
-        android:layout_width="123dp"
-        android:layout_height="85dp"
+        android:layout_width="92dp"
+        android:layout_height="64dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.065"
+        app:layout_constraintHorizontal_bias="0.094"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.459"
+        app:layout_constraintVertical_bias="0.455"
         app:srcCompat="@drawable/legs_innerthightfts"
         tools:ignore="MissingConstraints" />
 
@@ -160,10 +160,10 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:layout_width="64dp"
-        android:layout_height="20dp"
-        android:layout_marginStart="224dp"
-        android:layout_marginLeft="224dp"
+        android:layout_width="54dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="188dp"
+        android:layout_marginLeft="188dp"
         android:layout_marginTop="368dp"
         android:text=" REST "
         android:textColor="#FF3333"
@@ -175,40 +175,40 @@
 
     <ImageView
         android:id="@+id/imageView17"
-        android:layout_width="123dp"
-        android:layout_height="85dp"
+        android:layout_width="113dp"
+        android:layout_height="67dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.072"
+        app:layout_constraintHorizontal_bias="0.093"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.639"
+        app:layout_constraintVertical_bias="0.626"
         app:srcCompat="@drawable/legs_forwardlegswings"
         tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView18"
-        android:layout_width="123dp"
-        android:layout_height="85dp"
+        android:layout_width="109dp"
+        android:layout_height="74dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.065"
+        app:layout_constraintHorizontal_bias="0.092"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.752"
+        app:layout_constraintVertical_bias="0.735"
         app:srcCompat="@drawable/legs_buttkicks"
         tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView20"
-        android:layout_width="123dp"
-        android:layout_height="85dp"
+        android:layout_width="110dp"
+        android:layout_height="70dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.065"
+        app:layout_constraintHorizontal_bias="0.093"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.877"
+        app:layout_constraintVertical_bias="0.842"
         app:srcCompat="@drawable/legs_sumosquat"
         tools:ignore="MissingConstraints" />
 
@@ -272,9 +272,9 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="224dp"
-        android:layout_marginLeft="224dp"
-        android:layout_marginTop="568dp"
+        android:layout_marginStart="232dp"
+        android:layout_marginLeft="232dp"
+        android:layout_marginTop="556dp"
         android:text=" Squats "
         android:textColor="#000000"
         android:textSize="20dp"
@@ -283,16 +283,15 @@
         app:layout_constraintTop_toTopOf="parent"
 
 
-
         />
 
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="184dp"
-        android:layout_marginLeft="184dp"
-        android:layout_marginTop="592dp"
+        android:layout_width="172dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="188dp"
+        android:layout_marginLeft="188dp"
+        android:layout_marginTop="580dp"
         android:text="3 Sets x 12 Reps "
         android:textColor="#000000"
         android:textSize="20dp"
@@ -303,9 +302,9 @@
     <TextView
         android:layout_width="54dp"
         android:layout_height="30dp"
-        android:layout_marginStart="224dp"
-        android:layout_marginLeft="224dp"
-        android:layout_marginTop="380dp"
+        android:layout_marginStart="252dp"
+        android:layout_marginLeft="252dp"
+        android:layout_marginTop="368dp"
         android:text="3min "
         android:textColor="#FF3333"
         android:textSize="20dp"
