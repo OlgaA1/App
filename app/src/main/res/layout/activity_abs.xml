@@ -131,15 +131,19 @@
         app:layout_constraintRight_toRightOf="@id/image4"
         app:layout_constraintTop_toTopOf="@id/image2"/>
 
-    <TextView
-        android:id="@+id/mountainclimbers"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:hint="20 Mountain Climbers"
-        android:textColorHint="@color/colorBlack"
-        android:textSize="14dp"
-        app:layout_constraintTop_toTopOf="@id/toetouches"
-        app:layout_constraintLeft_toLeftOf="@id/image5"/>
+ <TextView
+     android:id="@+id/mountainclimbers"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:hint="20 Mountain Climbers"
+     android:textColorHint="@color/colorBlack"
+     android:textSize="14dp"
+     app:layout_constraintBottom_toBottomOf="parent"
+     app:layout_constraintHorizontal_bias="0.941"
+     app:layout_constraintLeft_toLeftOf="parent"
+     app:layout_constraintRight_toRightOf="parent"
+     app:layout_constraintTop_toTopOf="parent"
+     app:layout_constraintVertical_bias="0.695" />
 
     <ImageView
         android:id="@+id/image6"
@@ -160,17 +164,16 @@
         app:layout_constraintLeft_toLeftOf="@id/image6"
         app:layout_constraintRight_toRightOf="@id/image6"/>
 
-    <Button
-        android:id="@+id/finish"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
-        android:layout_marginBottom="65dp"
-        android:text="DONE"
-        android:textColorHint="@color/colorBlack"
-        app:layout_constraintRight_toRightOf="@id/image4"
-        app:layout_constraintBottom_toBottomOf="parent"/>
+ <Button
+     android:id="@+id/finish"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginRight="12dp"
+     android:layout_marginBottom="16dp"
+     android:text="DONE"
+     android:textColorHint="@color/colorBlack"
+     app:layout_constraintBottom_toBottomOf="parent"
+     app:layout_constraintRight_toRightOf="@id/image4" />
 
 
 
