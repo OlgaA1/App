@@ -147,7 +147,6 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-
         <EditText
             android:id="@+id/editText8"
             android:layout_width="213dp"
@@ -164,8 +163,6 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
-
-        <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/FITBOOST"
             android:layout_width="33dp"
             android:layout_height="51dp"
@@ -173,9 +170,6 @@
             android:scrollbarThumbHorizontal="@drawable/rounded_corners"
             app:layout_constraintBottom_toBottomOf="parent"
             tools:layout_editor_absoluteX="-16dp">
-
-
-        </androidx.constraintlayout.widget.ConstraintLayout>
 
         <Button
             android:id="@+id/button1"
@@ -192,6 +186,5 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
