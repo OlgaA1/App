@@ -14,9 +14,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
-        android:layout_marginTop="37dp"
+        android:layout_marginTop="30dp"
         android:text="ABS"
-        android:textSize="50dp"
+        android:textSize="40dp"
         android:textColor="#000000"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -27,9 +27,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
-        android:layout_marginTop="112dp"
+        android:layout_marginTop="100dp"
         android:text="WORKOUTS"
-        android:textSize="50dp"
+        android:textSize="40dp"
         android:textColor="#000000"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -47,8 +47,8 @@
 
     <ImageView
         android:id="@+id/image1"
-        android:layout_width="125dp"
-        android:layout_height="150dp"
+        android:layout_width="115dp"
+        android:layout_height="130dp"
         android:src="@drawable/situps"
         app:layout_constraintLeft_toLeftOf="@id/info"
         app:layout_constraintTop_toBottomOf="@id/info" />
@@ -66,8 +66,8 @@
 
     <ImageView
         android:id="@+id/image2"
-        android:layout_width="125dp"
-        android:layout_height="150dp"
+        android:layout_width="115dp"
+        android:layout_height="130dp"
         android:src="@drawable/toetouches"
         app:layout_constraintTop_toBottomOf="@id/situps"
         app:layout_constraintLeft_toLeftOf="@id/image1"/>
@@ -85,8 +85,8 @@
 
     <ImageView
         android:id="@+id/image3"
-        android:layout_width="125dp"
-        android:layout_height="140dp"
+        android:layout_width="115dp"
+        android:layout_height="130dp"
         android:src="@drawable/flutterkicks"
         app:layout_constraintTop_toBottomOf="@id/toetouches"
         app:layout_constraintLeft_toLeftOf="@id/image2" />
@@ -104,8 +104,8 @@
 
     <ImageView
         android:id="@+id/image4"
-        android:layout_width="125dp"
-        android:layout_height="140dp"
+        android:layout_width="115dp"
+        android:layout_height="130dp"
         android:src="@drawable/legraises"
         android:layout_marginEnd="20dp"
         android:layout_marginRight="20dp"
@@ -125,8 +125,8 @@
 
     <ImageView
         android:id="@+id/image5"
-        android:layout_width="125dp"
-        android:layout_height="140dp"
+        android:layout_width="115dp"
+        android:layout_height="130dp"
         android:src="@drawable/mountainclimbers"
         app:layout_constraintRight_toRightOf="@id/image4"
         app:layout_constraintTop_toTopOf="@id/image2"/>
@@ -143,8 +143,8 @@
 
     <ImageView
         android:id="@+id/image6"
-        android:layout_width="125dp"
-        android:layout_height="140dp"
+        android:layout_width="115dp"
+        android:layout_height="130dp"
         android:src="@drawable/plank"
         app:layout_constraintRight_toRightOf="@id/image4"
         app:layout_constraintTop_toTopOf="@id/image3"/>
@@ -166,7 +166,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
-        android:layout_marginBottom="6dp"
+        android:layout_marginBottom="65dp"
         android:text="DONE"
         android:textColorHint="@color/colorBlack"
         app:layout_constraintRight_toRightOf="@id/image4"
